@@ -8,6 +8,7 @@ require('dotenv').config() //require the dotenv
 
 // creates a new instance of express application
 const app = express()
+const Port = 3000;
 
 // add cors header to the server
 app.use(
